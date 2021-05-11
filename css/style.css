@@ -33,7 +33,7 @@ span{
   position: relative;  
   margin: auto;  
 }  
-.left, .right {  
+.left, .rights {  
   cursor: pointer;  
   position: absolute;  
   top: 50%;  
@@ -46,11 +46,11 @@ span{
   transition: 0.6s ease;  
   border-radius: 0 3px 3px 0;  
 }  
-.right {  
+.rights {  
   right: 0;  
   border-radius: 3px 0 0 3px;  
 }  
-  .left:hover, .right:hover {  
+  .left:hover, .rights:hover {  
       background-color: rgba(115, 115, 115, 0.8);  
   }  
 .content {  
@@ -100,7 +100,10 @@ scroll-behavior: smooth;
   font: alegreya;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+#gallery{
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
 
 
 
