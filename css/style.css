@@ -35,7 +35,7 @@ span{
   position: relative;  
   margin: auto;  
 }  
-.left, .rights {  
+.lefts, .rights {  
   cursor: pointer;  
   position: absolute;  
   top: 50%;  
@@ -52,7 +52,7 @@ span{
   right: 0;  
   border-radius: 3px 0 0 3px;  
 }  
-  .left:hover, .rights:hover {  
+  .lefts:hover, .rights:hover {  
       background-color: rgba(115, 115, 115, 0.8);  
   }  
 .content {  
