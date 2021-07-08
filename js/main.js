@@ -18,6 +18,25 @@ function showSlides() {
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
 
+var slideIndexx = 0;
+showSlidess();
+
+function showSlidess() {
+  var l;
+  var slidess = document.getElementsByClassName("mySlidess");
+  var dotss = document.getElementsByClassName("dots");
+  for (l = 0; l < slidess.length; l++) {
+    slidess[l].style.display = "none";  
+  }
+  slideIndexx++;
+  if (slideIndexx > slidess.length) {slideIndexx = 1}    
+  for (l = 0; l < dotss.length; l++) {
+    dotss[l].className = dotss[l].className.replace(" actives", "");
+  }
+  slidess[slideIndexx-1].style.display = "block";  
+  dotss[slideIndexx-1].className += " actives";
+  setTimeout(showSlidess, 3500); // Change image every 4 seconds
+}
 
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.scrollspy');
@@ -58,4 +77,4 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   
-  
+ 
