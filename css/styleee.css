@@ -98,7 +98,7 @@
   transition: background-color 0.6s ease;
 }
 
-.active {
+.activee {
   background-color: #717171;
 }
 
@@ -238,7 +238,7 @@ align-items: baseline;
 #fs-frm textarea,
 #fs-frm #card-element {
 border: 1px solid rgba(0,0,0,0.2);
-background-color: rgba(255,255,255,0.9);
+
 padding: .75em 1rem;
 margin-bottom: 1.5rem;
 }
@@ -274,6 +274,8 @@ outline: none;
 margin-bottom: 0;
 }
 
-
+.frmm{
+  padding-bottom: 40px;
+}
 
 
